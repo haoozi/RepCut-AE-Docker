@@ -12,7 +12,7 @@ RUN apt-get update \
     && dpkg-reconfigure --frontend noninteractive tzdata \
     && apt-get install -y \
     build-essential clang git flex bison help2man perl device-tree-compiler \
-    python3-matplotlib python3-numpy rsync numactl time cmake \
+    python3-matplotlib python3-numpy rsync numactl time cmake unzip autoconf \
     openjdk-11-jdk linux-tools-generic \
     sudo \
     apt-transport-https curl gnupg \
